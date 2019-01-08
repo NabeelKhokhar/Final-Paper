@@ -1,0 +1,18 @@
+<h4 text-center margin-top>Login</h4>
+
+  <ion-item>
+    <ion-label stacked>Email</ion-label>
+    <ion-input [(ngModel)]="Email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+  <div text-center margin-top>
+    <button ion-button margin-right (click)="Login()">
+     Login
+    </button>
+
+  </div>
